@@ -102,7 +102,7 @@ namespace TicTacToe.Game
             return response == ConsoleKey.Y;
         }
 
-        private static void ComputerMakesMove(List<char> gameMarkers)
+        public static void ComputerMakesMove(List<char> gameMarkers)
         {
             // Priority 1 : get tic tac toe
             // Priority 2 : block x
